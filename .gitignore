@@ -6,8 +6,6 @@
 # Packages
 *.egg
 *.egg-info
-AUTHORS
-ChangeLog
 dist
 build
 eggs
@@ -25,11 +23,9 @@ pip-log.txt
 
 # Unit test / coverage reports
 .coverage
-.testrepository
 .tox
-cover
 nosetests.xml
-solum.sqlite
+.testrepository
 
 # Translations
 *.mo
@@ -39,3 +35,17 @@ solum.sqlite
 .project
 .pydevproject
 
+# Complexity
+output/*.html
+output/*/index.html
+
+# Sphinx
+doc/build
+
+# pbr generates these
+AUTHORS
+ChangeLog
+
+# Editors
+*~
+.*.swp

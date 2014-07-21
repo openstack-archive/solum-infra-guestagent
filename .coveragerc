@@ -1,0 +1,7 @@
+[run]
+branch = True
+source = solum-infra-guestagent
+omit = solum-infra-guestagent/tests/*,solum-infra-guestagent/openstack/*
+
+[report]
+ignore-errors = True
