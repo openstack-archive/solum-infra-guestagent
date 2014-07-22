@@ -1,6 +1,15 @@
 [DEFAULT]
 
 #
+# Options defined in solum_guestagent.main
+#
+
+# Identifier of the queue consumed by the agent. (string
+# value)
+#queue_id=<None>
+
+
+#
 # Options defined in solum_guestagent.openstack.common.log
 #
 
