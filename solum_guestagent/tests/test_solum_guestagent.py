@@ -19,9 +19,13 @@ test_solum_guestagent
 Tests for `solum_guestagent` module.
 """
 
+from solum_guestagent.openstack.common import log as logging
 from solum_guestagent.tests import base
 
 
+LOG = logging.getLogger(__name__)
+
+
 class TestSolumGuestagent(base.TestCase):
-    def test_something(self):
-        pass
+    def test_can_use_oslo_logging(self):
+        LOG.info('Test to show we can import and use logging.')
