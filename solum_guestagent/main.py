@@ -36,7 +36,7 @@ def main():
     cfg.CONF(sys.argv[1:], project='solum_guestagent')
     logging.setup('solum_guestagent')
 
-    LOG.info(('Starting solum_guestagent in PID %s with %s as queue_id.')
+    LOG.info('Starting solum_guestagent in PID %s with %s as queue_id.'
              % os.getpid(), CONF.queue_id)
 
     # TODO(stannie): Add marconi queues consumption by queue_id
