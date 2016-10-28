@@ -19,7 +19,8 @@ test_solum_guestagent
 Tests for `solum_guestagent` module.
 """
 
-from solum_guestagent.openstack.common import log as logging
+from oslo_log import log as logging
+
 from solum_guestagent.tests import base
 
 

@@ -16,8 +16,7 @@ import os
 import sys
 
 from oslo_config import cfg
-
-from solum_guestagent.openstack.common import log as logging
+from oslo_log import log as logging
 
 QUEUE_ID_OPTS = [
     cfg.StrOpt(
@@ -30,6 +29,10 @@ CONF.register_opts(QUEUE_ID_OPTS)
 
 
 LOG = logging.getLogger(__name__)
+
+
+def list_opts():
+    return [(None, (QUEUE_ID_OPTS))]
 
 
 def main():
