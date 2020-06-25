@@ -1,15 +1,10 @@
-===============================
-solum-infra-guestagent
-===============================
+This project is no longer maintained.
 
-Guest Agent for Solum
+The contents of this repository are still available in the Git
+source code management system.  To see the contents of this
+repository before it reached its end of life, please check out the
+previous commit with "git checkout HEAD^1".
 
-* Free software: Apache license
-* Documentation: http://docs.openstack.org/developer/solum-infra-guestagent
-* Source: http://git.openstack.org/cgit/stackforge/solum-infra-guestagent
-* Bugs: http://bugs.launchpad.net/solum-infra-guestagent
-
-Features
---------
-
-* TODO
+For any further questions, please email
+openstack-discuss@lists.openstack.org or join #openstack-dev on
+Freenode.
